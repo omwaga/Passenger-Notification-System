@@ -235,7 +235,8 @@ PreparedStatement pst = null;
             }
         String Comment = txtComment.getText();
         
-        Mailer.send("complaintpassenger@gmail.com", "pcs12345678", "dyanita1996@gmail.com", "Passenger Comment", ""
+        //Send Email
+        Mailer.send("Sending Email goes Here..", "Password Here", "Receiving Email", "Passenger Comment", ""
                 + "PASSENGER COMMENT FROM "+txtMail.getText()+"\n\n "+Comment+"");
    
         
